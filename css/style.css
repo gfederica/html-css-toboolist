@@ -5,6 +5,11 @@
     margin: 0 auto;
 }
 
+#background {
+    background-color: #F6F8F9;
+    height: 100vh;
+}
+
 /* header */
 header {
     width: 100%;
@@ -25,9 +30,6 @@ header {
     font-weight: bold;
 }
 
-#background {
-    background-color: #F6F8F9;
-}
 
 /* main */
 main {
@@ -35,5 +37,23 @@ main {
     width: 80%;
     border-radius: 10px;
     padding: 30px;
+    margin-top: 40px;
 }
 
+
+.add {
+    display: inline-block;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+#action {
+    padding: 10px 20px;
+}
+
+.new-task, .today, .upcoming {
+    padding-left: 20px;
+    margin-top: 40px;
+}
